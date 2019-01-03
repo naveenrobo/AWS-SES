@@ -1,0 +1,9 @@
+{
+  "name": "aws-ses-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "express": "^4.16.4"
+  }
+}
