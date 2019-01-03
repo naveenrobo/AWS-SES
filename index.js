@@ -6,7 +6,7 @@ AWS.config.update({
 var params = {
     Destination: {
         ToAddresses: [
-            'muthu.vangaliappan@katomaran.com',
+            '<to_address>',
         ]
     },
     Message: {
@@ -25,9 +25,9 @@ var params = {
             Data: 'Test email'
         }
     },
-    Source: 'hello@naveens.co.in',
+    Source: '<source mail>',
     ReplyToAddresses: [
-        'naveenrobotics@live.in',
+        '<reply to address>',
     ],
 };
 
